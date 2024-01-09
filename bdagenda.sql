@@ -12,15 +12,16 @@ CREATE TABLE agenda
   telefmovi                  VARCHAR(9),
   email                      VARCHAR(30),
   fbc                        VARCHAR(30),
+ distrito                    VARCHAR(30),
   CONSTRAINT agenda_codigoper_pk PRIMARY KEY (codigoper))
  );
 
 INSERT INTO agenda VALUES ('1', 'carlos', 'serna','av. palmeras 145',
-'043524875', '942587568','carlos@hotmail.com', 'carlos serna');
+'043524875', '942587568','carlos@hotmail.com', 'carlos serna','Chimbote');
 INSERT INTO agenda VALUES ('2', 'carmen', 'figueroa','av. alamos f-5',
-'043154784', '943124578','carmen@hotmail.com', 'carmen figeroa');
+'043154784', '943124578','carmen@hotmail.com', 'carmen figeroa','Nuevo Chimbote');
 INSERT INTO agenda VALUES ('3', 'juan', 'perez','av.pacaes',
-'043758694', '943582674','juan@hotmail.com', 'juan perez');
+'043758694', '943582674','juan@hotmail.com', 'juan perez',);
 INSERT INTO agenda VALUES ('4', 'jean', 'ramirez','av.pardo 580',
 '043587469', '941748596','jean@hotmail.com', 'jean ramirez');
 INSERT INTO agenda VALUES ('5', 'melisa', 'cavero','av.huaraz 220',
